@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="password"] {
+    width: calc(100% - 100px);
+}
+
+button.show-hide {
+    width: 100px;
+}
+
+#feedback {
+    margin: 10px 0;
+}
+
+#printBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#printBtn:hover {
+    background-color: #0056b3;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Senhas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+</head>
+<body>
+    <h1>Gerenciador de Senhas</h1>
+    
+    <form id="passwordForm">
+        <input type="text" id="site" placeholder="Link do site" required>
+        <input type="password" id="password" placeholder="Senha" required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <p id="feedback" style="color: green;"></p>
+
+    <table>
+        <thead>
+            <tr><th>Site</th><th>Senha</th><th>Ações</th></tr>
+        </thead>
+        <tbody id="passwordTable"></tbody>
+    </table>
+
+    <button id="printBtn">Imprimir</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
